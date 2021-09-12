@@ -1,0 +1,51 @@
+.encabezado {
+	background: #80b918;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+.encabezado h3 {
+	width: max-content;
+	margin: 0 10px;	
+	font-size: 34px;
+}
+
+.contenedor {
+	height: 100vh;
+}
+
+.contenedor-formulario {
+	border: 1px red solid;
+	height: 500px;
+	width: 710px;
+	position: relative;
+	top: 80px;
+	left: 50px;
+}
+
+.title-form {
+	background: #70e000;
+	height: 50px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	border-radius: 15px 15px 0 0;
+	-webkit-border-radius: 15px 15px 0 0;
+	-moz-border-radius: 15px 15px 0 0;
+	-ms-border-radius: 15px 15px 0 0;
+	-o-border-radius: 15px 15px 0 0;
+}
+
+.footer {
+	background: #38b000;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer h3 {
+	font-size: 24px;
+	margin: 0;
+}
